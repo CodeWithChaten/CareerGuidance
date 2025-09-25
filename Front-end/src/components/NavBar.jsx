@@ -5,7 +5,7 @@ const NavBar = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 bg-[#ffffff] shadow-md">
-      <div className="text-2xl font-bold text-black tracking-wide">EduGuide</div>
+      <div className="text-2xl font-bold text-black tracking-wide"><a href="/">EduGuide</a></div>
       
       {/* Desktop Nav */}
       <nav className="hidden md:flex gap-8 items-center">

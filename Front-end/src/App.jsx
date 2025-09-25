@@ -7,6 +7,10 @@ import HomeSection from './pages/Home'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LoginPage from './pages/Login'
 import SignUpPage from './pages/SignUp'
+import GetGuidencePage from './pages/GetGuidence'
+import InterestSelectionPage from './pages/InterestSelection'
+import QuizPage from './pages/Quiz'
+import CareerGuidancePage from './pages/CareerGuidance'
 
 
 function App() {
@@ -19,6 +23,10 @@ function App() {
           <Route path="/" element={<HomeSection />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
+          <Route path="/getguidance" element={<GetGuidencePage />} />
+          <Route path="/interests" element={<InterestSelectionPage />} />
+          <Route path="/quiz" element={<QuizPage />} />
+          <Route path="/career-guidance" element={<CareerGuidancePage />} />
         </Routes>
       </main>
       <Footer/>

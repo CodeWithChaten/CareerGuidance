@@ -91,6 +91,7 @@ const SignUpPage = () => {
         e.preventDefault();
         if (validateForm()) {
             console.log('Signup attempt:', formData);
+
             // Add your signup logic here
             alert('Account created successfully!');
         }
